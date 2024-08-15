@@ -184,7 +184,7 @@ header {
 .hero {
     justify-content: space-around;
     padding: 0 40px;
-    /* font-weight:bold; */
+
 }
 
 .hero .text-left {
@@ -256,9 +256,6 @@ header {
         height: 200px;
     }
 
-    /* .store--btn img {
-        /* width: 75px; 
-    } */
 }
 
 
@@ -299,30 +296,14 @@ header {
 }
 
 .trend {
-    /* width: 436px; */
     justify-content: space-between;
-
 }
-
-/* .trend .title-head {
-    font-family: lato;
-    font-size: 25px;
-    line-height: 140%;
-    letter-spacing: -1%;
-} */
-
-/* .trend .title-body {
-    line-height: 140%;
-    letter-spacing: 0.5px;
-    font-size: 10px;
-} */
 
 .trend ul {
     margin-top: 4%;
     list-style: none;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* flex-grow: 1; */
 }
 
 .card {
@@ -389,15 +370,6 @@ header {
 
 }
 
-/* .why-choose {
-    font-family: lato;
-    font-size: 25px;
-    line-height: 140%;
-    letter-spacing: -1%;
-} */
-
-/* .enjoy {} */
-
 .text {
     width: 40%;
 }
@@ -412,38 +384,27 @@ header {
 .link-reset {
     text-decoration: none;
     color: #636363;
-    /* text-decoration-color: ; */
 }
 
 .experience-list {
-    /* width: ; */
     flex-direction: column;
     justify-content: space-around;
     padding: 35px 0px;
-    /* gap:20px; */
+
 }
 
 .experience {
     align-content: baseline;
     padding: 10px 0px;
     transition: all 0.5s 0.1s ease;
-    /* transition-delay: 1s; */
-    /* gap: 100px; */
-    /* justify-content: space-around; */
 }
 
 .experience:hover {
     align-content: baseline;
-    /* padding: 1px 0px; */
-    /* padding: 5px 0px; */
-    /* transition: all; */
     background-color: white;
     border-radius: 10px;
     box-shadow: 0.1px 0.1px 20px #d4d4d4;
     transform: translateY(-10px);
-
-    /* gap: 100px; */
-    /* justify-content: space-around; */
 }
 
 .experience-text {
@@ -451,11 +412,6 @@ header {
 
 }
 
-/* .experience-active {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0.1px 0.1px 20px #d4d4d4;
-} */
 @media all and (max-width:632px) {
     .tourist {
         display: none
@@ -505,10 +461,9 @@ footer {
     border: 1px white solid;
     border-radius: 10px;
 }
-.indo{
-    font-size:clamp(
-        10px,250%,45px
-    );
+
+.indo {
+    font-size: clamp(10px, 250%, 45px);
     color: white;
 }
 
@@ -523,22 +478,23 @@ footer {
 }
 
 .signup-button button {
-    width:  250px;
+    width: 250px;
     padding: 20px;
     border: none;
     border-radius: 7px;
 }
 
 .footer-links {
- justify-content: space-between;
- align-content: baseline;
- padding: 7% 0 30px 0;
- color: white;
+    justify-content: space-between;
+    align-content: baseline;
+    padding: 7% 0 30px 0;
+    color: white;
 }
 
-footer .logo{
-    color :white;
+footer .logo {
+    color: white;
 }
+
 footer li {
     display: inline-block;
     padding: 10px 20px;
@@ -549,6 +505,7 @@ footer li a {
     text-decoration: none;
     color: white;
 }
-.gta{
+
+.gta {
     padding: 5px;
 }
