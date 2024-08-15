@@ -77,9 +77,6 @@ header {
     display: inline-block;
     padding: 0 20px;
     font-size: 16px;
-
-
-
 }
 
 .navbar li a {
@@ -87,7 +84,7 @@ header {
     color: #333333;
 }
 
-.navbar p {
+.logo {
     color: #42A7C3;
     font-family: Roboto;
     font-size: 30px;
@@ -183,6 +180,7 @@ header {
 /*  */
 /*  navbar end*/
 /* hero  */
+
 .hero {
     justify-content: space-around;
     padding: 0 40px;
@@ -313,11 +311,11 @@ header {
     letter-spacing: -1%;
 } */
 
-.trend .title-body {
+/* .trend .title-body {
     line-height: 140%;
     letter-spacing: 0.5px;
     font-size: 10px;
-}
+} */
 
 .trend ul {
     margin-top: 4%;
@@ -391,12 +389,12 @@ header {
 
 }
 
-.why-choose {
+/* .why-choose {
     font-family: lato;
     font-size: 25px;
     line-height: 140%;
     letter-spacing: -1%;
-}
+} */
 
 /* .enjoy {} */
 
@@ -471,4 +469,86 @@ header {
         padding: 0px
     }
 
+}
+
+@media all and (max-width:600px) {
+    .tourist {
+        display: none
+    }
+
+    .cap {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10%;
+        align-items: center;
+        padding: 0px
+    }
+
+    .text {
+        width: 70%;
+    }
+
+}
+
+footer {
+    background-color: #42a7c3;
+    padding: 70px;
+    border-radius: 15px 15px 0 0;
+}
+
+.signup {
+    background-color: rgba(90, 181, 205, 0.95);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+.indo{
+    font-size:clamp(
+        10px,250%,45px
+    );
+    color: white;
+}
+
+.signup-text {
+    color: white;
+}
+
+.signup-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-button button {
+    width:  250px;
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.footer-links {
+ justify-content: space-between;
+ align-content: baseline;
+ padding: 7% 0 30px 0;
+ color: white;
+}
+
+footer .logo{
+    color :white;
+}
+footer li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+.gta{
+    padding: 5px;
 }
