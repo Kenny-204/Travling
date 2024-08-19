@@ -38,7 +38,7 @@ const headObserve = function (entries) {
         nav.classList.remove('sticky')
     }
 
-    console.log(entry)
+    // console.log(entry)
 }
 const options = {
     root: null,
