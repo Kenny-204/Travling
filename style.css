@@ -454,13 +454,14 @@ footer {
 }
 
 .signup {
-    background-color: rgba(90, 181, 205, 0.95);
+    background-color: rgba(90, 181, 205,0.95);
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     border: 1px white solid;
     border-radius: 10px;
+    
 }
 
 .indo {
@@ -544,4 +545,34 @@ footer li a {
         flex-wrap: wrap;
         flex-direction: column;
     }   
+}
+
+@media all and (max-width:677px) {
+    .indo {
+        font-size: 100%;
+        color: white;
+    }   
+    .signup-text .cap{
+        font-size: 50%;
+    }
+    .signup-button {
+     
+        width: 30%;
+    }
+}
+@media all and (max-width:525px) {
+    .indo {
+        font-size: 100%;
+        color: white;
+    }   
+    .signup-text .cap{
+        font-size: 50%;
+    }
+    .signup-button {
+     
+        width: 100%;
+    }
+    .signup{
+        flex-direction: column;
+    }
 }
